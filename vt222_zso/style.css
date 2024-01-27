@@ -36,12 +36,12 @@ body._lock {
  /* Navigation block */
 
 .navigation {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 .nav {
     display: flex;
     justify-content: space-between;
-    height: 60px;
+    height: 65px;
 }
 .logo {
     z-index: 5;
@@ -346,7 +346,7 @@ body._lock {
 
 .dot {
     height: 4px;
-    width: 40px;
+    width: 50px;
     margin: 0 10px;
     background-color: #bbb;
     border-radius: 100px;
@@ -974,7 +974,7 @@ gap: 8px;
         height: 100%;
     }
     .footer-contact-us-title {
-        font-size: 24px;
+        font-size: 25px;
         line-height: 125%;
     }
     .li-footer-contact-us-info {
