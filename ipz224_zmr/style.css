@@ -19,14 +19,15 @@ header {
 }
 
 .news{
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 5px;
   margin: 5px;
   padding: 5px;
-  background-color: antiquewhite;
+  background-color: rgb(181, 145, 99);
+  color: white;
 }
 .news:hover{
-    background-color: wheat;
+    background-color: rgb(207, 157, 63);
     transform: scale(1.1);
 }
 
