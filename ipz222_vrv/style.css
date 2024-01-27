@@ -1,0 +1,33 @@
+img{
+  height: 260px;
+  width: 420px;
+  bottom: 0;
+  margin: 5px;
+}
+h3{
+  width: 500px;
+  padding: 5px;
+}
+article{
+  border: 1px black solid;
+  width: 500px;
+  margin-top: 1px;
+  margin-right: 1px;
+  background-color: rgb(229, 229, 229);
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+body{
+  box-sizing: border-box;
+  background-color: rgb(88, 88, 88);
+}
+
+section{
+  height: auto;
+  margin: 5px;
+}
