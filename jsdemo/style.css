@@ -1,10 +1,20 @@
+/* style.css */
+
 div.user {
-    border:1px solid black;
-    padding:10px;
+    border: 1px solid black;
+    padding: 10px;
 }
+
 div.user div {
     cursor: pointer;
 }
+
 div.user.selected {
     background-color: greenyellow;
+}
+
+/* Новий стиль */
+.new-style {
+    color: blue;
+    font-weight: bold;
 }
