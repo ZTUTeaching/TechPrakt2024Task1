@@ -65,3 +65,45 @@ header {
     background-color: green;
   border-radius: 2px;
 } 
+
+img{
+    width: 600px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .news-container {
+        padding: 0 10px;
+    }
+    .news {
+        width: 90%;
+    }
+    img{
+        width: 400px;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-links {
+        text-align: center; 
+    }
+    .footer-links li {
+        display: block; 
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    header {
+        padding: 10px;
+        font-size: 1.5em;
+    }
+    .news {
+        padding: 10px;
+        margin: 10px 0;
+    }
+  
+}
