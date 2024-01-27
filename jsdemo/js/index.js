@@ -39,7 +39,7 @@ let panelParams = {
 };
 
 let {title, height} = panelParams;
-let [id, title, count, price] = [1, 'title', 10, 10,5];
+let [id, title2, count, price] = [1, 'title', 10, 10,5];
 let x = 1;
 let y = 2;
 [x, y] = [y, x];
