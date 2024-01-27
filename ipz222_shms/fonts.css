@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Dosis";
+    src: url("fonts/Dosis-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Fontdiner";
+    src: url("fonts/FontdinerSwanky-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Workbench";
+    src: url("fonts/Workbench-Regular-VariableFont_BLED,SCAN.ttf") format('truetype');
+}
+
+h1, h2 {
+    font-family: Fontdiner, serif;
+}
+
+h3, h4, h5, h6 {
+    font-family: Workbench, serif;
+}
+
+p, a {
+    font-family: Dosis, sans-serif;
+}
