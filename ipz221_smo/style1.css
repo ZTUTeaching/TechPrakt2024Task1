@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Century Gothic;
     margin: 0;
     padding: 0;
 }
@@ -24,6 +24,12 @@ article {
 }
 
 img {
-    width: 100%;
+    width: 75%;
     height: auto;
+}
+
+p {
+    font-weight: bold;
+    line-height: 1.6;
+    color: #333;
 }
