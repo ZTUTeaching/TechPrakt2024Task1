@@ -8,3 +8,7 @@ div{
 h3{
   width: 500px;
 }
+article{
+  border: 1px black solid;
+  width: 500px;
+}
