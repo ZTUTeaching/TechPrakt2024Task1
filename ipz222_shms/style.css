@@ -4,4 +4,38 @@
   box-sizing: border-box;
 }
 
+html {
+  min-height: 100vh;
+  background: linear-gradient(0deg, #41295a, #2F0743);
+}
+
+header {
+  width: 100%;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1.title {
+  margin: 0.75em 0;
+  padding: 0 0.5em;
+  font-size: 36pt;
+  font-weight: bold;
+  text-align: center;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(-45deg, #03001e, #7303c0, #ec38bc, #fdeff9);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+header img.blast {
+  max-height: 128px;
+}
+header img.blast:first-of-type {
+  transform: rotate(90deg) translateY(3em);
+}
+header img.blast:last-of-type {
+  transform: rotate(-90deg) translateY(3em);
+}
+
 /*# sourceMappingURL=style.css.map */
