@@ -9,3 +9,10 @@
     text-decoration: none;
     color: black;
 }
+
+.main__btn {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
