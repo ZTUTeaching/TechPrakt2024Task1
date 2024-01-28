@@ -1,6 +1,6 @@
 header {
     width: 40%;
-    background-color: rgb(255, 120, 120);
+    background-color: rgb(255, 99, 99);
     height: 50px;
     transform: translate(70%, 0);
     display: flex;
@@ -10,7 +10,7 @@ header {
 
 header > p {
     font-size: 36px;
-    color: aliceblue;
+    color: rgb(227, 242, 255);
 }
 
 body {
@@ -23,7 +23,7 @@ div {
     justify-content: center;
     transform: translate(69%, 0);
     border-bottom: 1px solid black;
-    padding: 5px;
+    padding: 3px;
 }
 
 span {
