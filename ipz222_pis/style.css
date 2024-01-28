@@ -1,0 +1,16 @@
+.newslist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article-block {
+  margin: 0 25rem 5px;
+  border: 2px solid black;
+}
+.article-block h2 {
+  text-align: center;
+}
+p.text {
+  text-align: justify;
+  margin: 5px;
+}
