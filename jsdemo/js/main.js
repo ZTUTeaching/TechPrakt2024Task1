@@ -8,32 +8,24 @@ let arr = [
         "name": "Sergiy",
         "age": 19,
         "title": "description"
+    },{
+        "name": "Sergiy",
+        "age": 19,
+        "title": "description"
+    }, {
+        "name": "Ivan",
+        "age": 19,
+        "title": "description"
     },
     {
         "name": "Sergiy",
         "age": 19,
         "title": "description"
     }, {
-        "name": "Sergiy",
+        "name": "Ivan",
         "age": 19,
         "title": "description"
     }, {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
         "name": "Sergiy",
         "age": 19,
         "title": "description"
