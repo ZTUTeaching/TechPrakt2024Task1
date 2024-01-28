@@ -21,6 +21,15 @@ div {
     width: 40%;
     display: flex;
     justify-content: center;
-    transform: translate(70%, 0);
+    transform: translate(69%, 0);
     border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+span {
+    margin-left: 5px;
+}
+
+#tavria {
+    width: 443px;
 }
