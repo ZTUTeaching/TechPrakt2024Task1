@@ -9,13 +9,13 @@ body {
     height: auto;
 }
 .news-item h2 {
-    color: #333;
+    color: #252525;
 }
 .news-item p {
-    color: #666;
+    color: #464646;
 }
 .news-item img {
-    width: 300px;
+    width: 500px;
     height: 200px;
     object-fit: cover;
 }
