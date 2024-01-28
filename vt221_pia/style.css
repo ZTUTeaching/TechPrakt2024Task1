@@ -1,3 +1,7 @@
+html, body {
+    margin: 0px;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -12,5 +16,22 @@
     justify-content: left;
     flex-direction: column;
     align-items: left;
-    width: 100%;
+    width: 80%;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.news-container > div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.news-container > h3 {
+    margin-top: 0px;
+}
+
+.selected{
+    background-color: #e6e6e6;
+    border-radius: 5px;
 }
