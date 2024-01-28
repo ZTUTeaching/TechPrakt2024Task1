@@ -20,4 +20,7 @@ body {
 div {
     width: 40%;
     display: flex;
+    justify-content: center;
+    transform: translate(70%, 0);
+    border-bottom: 1px solid black;
 }
