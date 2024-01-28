@@ -3,6 +3,7 @@ body {
   margin: 0;
 }
 
+/* comment added in branch one */
 .navbar {
   background-color: #000;
   color: #fff;
@@ -11,6 +12,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* comment added in branch one yet another one */
 .navbar-container {
   display: flex;
   justify-content: space-between;
