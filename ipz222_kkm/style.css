@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #e3aacb; /* оновлено фон верхньої частини веб-сторінки */
     color: white;
     text-align: center;
     padding: 1em;
@@ -29,8 +29,12 @@ img {
 }
 
 footer {
-    background-color: #333;
+    background-color: #cd9cef; /* оновлено колір фону нижньої частини веб-сторінки */
     color: white;
     text-align: center;
     padding: 1em;
+}
+
+header h1 {
+    font-size: 2em; /* Додано новий стиль для заголовку*/
 }
