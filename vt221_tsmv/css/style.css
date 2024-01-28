@@ -20,14 +20,14 @@ img{
 .content{
     display: flex;
     flex-direction: column;
-    color: gold;
+    color: fuchsia;
 }
 .text{
     text-align: center;
     max-width: 300px;
 }
 .second_block{
-    color: red;
+    color: plum;
 }
 @media (max-width: 647px) {
     .news{
