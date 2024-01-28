@@ -1,13 +1,13 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 20px;
-    background-color: #f4f4f4;
+    background-color: #f8f8f8;
 }
 
 .news-container {
     max-width: 800px;
     margin: auto;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -15,10 +15,10 @@ body {
 
 .news-item {
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     padding: 15px;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #fafafa;
     transition: transform 0.3s ease;
 }
 
@@ -36,8 +36,18 @@ body {
 
 h2 {
     color: #333;
+    margin-bottom: 10px;
 }
 
 p {
-    color: #666;
+    color: #555;
+}
+
+.header-banner {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
