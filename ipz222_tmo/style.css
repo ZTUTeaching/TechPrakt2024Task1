@@ -25,3 +25,11 @@ body{
     width: 100%;
     height: 350px;
 }
+
+.news .pubDate{
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
