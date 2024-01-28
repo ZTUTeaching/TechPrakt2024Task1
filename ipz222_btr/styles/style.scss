@@ -1,5 +1,5 @@
 :root {
-    --f1-red : #FF1801
+    --f1-red : #c21200
 }
 
 body {
@@ -11,20 +11,36 @@ body {
         background-color: var(--f1-red);
     }
     header {
-        display: flex;
-        align-items: center;
         img {
             margin-left: 3vh;
-            height: 7vh;
+            height: 6.5vh;
         }
     }
     main {
+        justify-content: space-evenly;
         height: 80%;
+        .article {
+            max-width: 30vw;
+            height: 75vh;
+            flex-direction: column;
+            .inner {
+                padding: 1.5vh;
+                flex-direction: column;
+                .title {
+                    font-size: 1.5rem;
+                }
+                .short_info {
+                    margin-top: 2.5vh;
+                }
+            }
+            img {
+                height: 35vh;
+            }
+        }
     }
 }
 
 .flexed {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
 }
