@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 0px 0px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    color: darkslateblue;
+}
+.text{
+    text-align: center;
+    max-width: 300px;
+}
+.second_block{
+    color: red;
+}
