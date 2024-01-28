@@ -10,3 +10,14 @@
     flex-direction: column;
     margin: 20px;
 }
+
+.news{
+    display: flex;
+    margin: 10px;
+}
+.news > div{
+    max-width: 33%;
+    box-shadow: whitesmoke 0 0 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
