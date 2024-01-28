@@ -13,12 +13,17 @@
     src: url("fonts/Workbench-Regular-VariableFont_BLED,SCAN.ttf") format('truetype');
 }
 
+@font-face {
+    font-family: "PlayBold";
+    src: url("fonts/Play-Bold.ttf") format('truetype');
+}
+
 h1, h2 {
     font-family: Fontdiner, serif;
 }
 
 h3, h4, h5, h6 {
-    font-family: Workbench, serif;
+    font-family: Workbench, PlayBold, serif;
 }
 
 p, a {
