@@ -1,16 +1,18 @@
 :root {
     --f1-red : #c21200
 }
+@font-face {
+    font-family: Title;
+    src: url(fonts/Formula1-Regular.otf);
+}
 
 body {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    header, footer {
+    header {
         height: 10%;
         background-color: var(--f1-red);
-    }
-    header {
         img {
             margin-left: 3vh;
             height: 6.5vh;
@@ -27,9 +29,11 @@ body {
                 padding: 1.5vh;
                 flex-direction: column;
                 .title {
-                    font-size: 1.5rem;
+                    font-family: Title;
+                    font-size: 1.4rem;
                 }
                 .short_info {
+                    font-family: 'Titillium Web', sans-serif;
                     margin-top: 2.5vh;
                 }
             }
