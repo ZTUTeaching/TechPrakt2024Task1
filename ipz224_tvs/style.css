@@ -42,7 +42,31 @@ main {
     align-items: center;
 }
 
+.news {
+    height: 200px;
+    border: 2px dotted black;
+    width: 90%;
+    padding: 10px;
+    margin: 7px;
+    display: flex;
+}
 
+.image {
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text {
+    flex: 1;
+    padding: 0 10px;
+}
 
 .header{
     font-size: 20px;
