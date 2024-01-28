@@ -61,3 +61,11 @@ console.log(myf.bind(user));
 console.log(user.getLogin());
 const admin = new Admin('admin', '123456', 'all');
 */
+
+let product = prompt("Введіть назву товару", "Процесор AMD Ryzen 5 5600")
+
+let bag = {
+    [product] : 1
+}
+
+console.log(bag)
