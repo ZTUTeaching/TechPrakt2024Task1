@@ -3,8 +3,8 @@ div.user {
     padding:10px;
 }
 div.user div {
-    cursor: pointer;
+    cursor: crosshair;
 }
 div.user.selected {
-    background-color: greenyellow;
+    background-color: rgb(225, 255, 179);
 }
