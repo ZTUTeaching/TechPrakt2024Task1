@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.news-item {
+    margin-bottom: 20px;
+}
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+.news-item h2 {
+    color: #252525;
+}
+.news-item p {
+    color: #464646;
+}
+.news-item img {
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+}
