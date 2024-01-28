@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
+
 html, body {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -20,6 +23,8 @@ html, body {
 
     border: 1px solid black;
     border-radius: 5px;
+
+    background-color: #e6e6e6;
 }
 
 .news-container > div {
@@ -27,11 +32,7 @@ html, body {
     padding-right: 10px;
 }
 
-.news-container > h3 {
-    margin-top: 0px;
-}
-
 .selected{
-    background-color: #e6e6e6;
+    background-color: #b3b3b3;
     border-radius: 5px;
 }
