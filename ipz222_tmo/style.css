@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: rgba(0,0,0,0.16);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news{
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: large;
+    box-shadow: 0 4px 20px gray;
+}
+
+.news h1{
+    text-align: center;
+}
+
+.news img{
+    width: 100%;
+    height: 355px;
+}
+
+.news .pubDate{
+    color: dimgray;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
