@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
+
+html, body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.news-container{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;
+    width: 80%;
+
+    border: 3px solid black;
+    border-radius: 40px;
+
+    background-color: #e6e6e6;
+}
+
+.news-container > div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.selected{
+    background-color: #b3b3b3;
+    border-radius: 5px;
+}
