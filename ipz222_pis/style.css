@@ -4,11 +4,17 @@
   align-items: center;
 }
 .article-block {
-  margin: 0 30rem 5px;
-  border: 2px solid black;
+  margin: 0 30rem 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .article-block h2 {
   text-align: center;
+  margin: 5px 5px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 p.text {
   text-align: justify;
