@@ -32,7 +32,7 @@ header > p, footer > p {
 
 .left-aside, .right-aside {
     width: 15%;
-    background-color: aliceblue;
+    background-color: lightskyblue;
 }
 
 main {
@@ -46,7 +46,7 @@ main {
     height: 200px;
     border: 2px dotted black;
     width: 90%;
-    padding: 10px;
+    padding: 8px;
     margin: 7px;
     display: flex;
 }
