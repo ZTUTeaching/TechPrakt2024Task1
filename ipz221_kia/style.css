@@ -7,14 +7,18 @@ h1, h2{
     margin: 1em;
 }
 header, article>div, footer{
-    border: 1px solid black;
+    /*dotted border is more interesting. or not?*/
+    border: 10px dotted black;
     margin: 0.5em;
 }
 header{
     margin-top: 0;
     background-color: lightcyan;
+    /*
+    These rows are bad
+
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 0;*/
 }
 header>div{
     font-size: 1.5em;
@@ -54,4 +58,11 @@ footer{
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
+}
+/* I need styles for h3 tag */
+h3{
+    color: red;
+    text-align: right;
+    font-size: 5em;
+    background-color: green;
 }
