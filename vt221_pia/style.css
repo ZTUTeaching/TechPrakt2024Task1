@@ -21,15 +21,15 @@ html, body {
     align-items: left;
     width: 80%;
 
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 3px solid black;
+    border-radius: 40px;
 
     background-color: #e6e6e6;
 }
 
 .news-container > div {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .selected{
