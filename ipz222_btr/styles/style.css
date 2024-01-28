@@ -1,0 +1,50 @@
+:root {
+  --f1-red: #c21200 ;
+}
+
+@font-face {
+  font-family: Title;
+  src: url(fonts/Formula1-Regular.otf);
+}
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+body header {
+  height: 10%;
+  background-color: var(--f1-red);
+}
+body header img {
+  margin-left: 3vh;
+  height: 6.5vh;
+}
+body main {
+  justify-content: space-evenly;
+  height: 80%;
+}
+body main .article {
+  max-width: 30vw;
+  height: 75vh;
+  flex-direction: column;
+}
+body main .article .inner {
+  padding: 1.5vh;
+  flex-direction: column;
+}
+body main .article .inner .title {
+  font-family: Title;
+  font-size: 1.4rem;
+}
+body main .article .inner .short_info {
+  font-family: "Titillium Web", sans-serif;
+  margin-top: 2.5vh;
+}
+body main .article img {
+  height: 35vh;
+}
+
+.flexed {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
