@@ -1,0 +1,30 @@
+:root {
+    --f1-red : #FF1801
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    header, footer {
+        height: 10%;
+        background-color: var(--f1-red);
+    }
+    header {
+        display: flex;
+        align-items: center;
+        img {
+            margin-left: 3vh;
+            height: 7vh;
+        }
+    }
+    main {
+        height: 80%;
+    }
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
