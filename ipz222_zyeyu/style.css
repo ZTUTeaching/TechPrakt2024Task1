@@ -16,3 +16,8 @@ header > p {
 body {
     margin: 0;
 }
+
+div {
+    width: 40%;
+    display: flex;
+}
