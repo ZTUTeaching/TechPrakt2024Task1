@@ -20,7 +20,7 @@ img{
 .content{
     display: flex;
     flex-direction: column;
-    color: darkslateblue;
+    color: gold;
 }
 .text{
     text-align: center;
