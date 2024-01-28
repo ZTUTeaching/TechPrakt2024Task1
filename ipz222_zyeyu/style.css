@@ -1,0 +1,39 @@
+header {
+    width: 40%;
+    background-color: rgb(255, 99, 99);
+    height: 50px;
+    transform: translate(70%, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > p {
+    font-size: 36px;
+    color: rgb(227, 242, 255);
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    transform: translate(69%, 0);
+    border-bottom: 1px solid black;
+    padding: 3px;
+}
+
+span {
+    margin-left: 5px;
+}
+
+#tavria {
+    width: 443px;
+}
+
+#nazar {
+    width: 443px;
+}
