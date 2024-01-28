@@ -13,7 +13,7 @@ body{
     width: 40%;
     margin: 20px;
     padding: 20px;
-    background-color: white;
+    background-color: #ffffff;
     font-size: large;
     box-shadow: 0 4px 20px gray;
 }
@@ -24,13 +24,13 @@ body{
 
 .news img{
     width: 100%;
-    height: 350px;
+    height: 355px;
 }
 
 .news .pubDate{
-    color: gray;
+    color: dimgray;
     font-style: italic;
     font-weight: bold;
     text-align: center;
-    margin: 0;
+    margin: 5px 0 0 0;
 }
