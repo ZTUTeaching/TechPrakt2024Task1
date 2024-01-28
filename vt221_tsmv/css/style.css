@@ -29,3 +29,20 @@ img{
 .second_block{
     color: red;
 }
+@media (max-width: 647px) {
+    .news{
+        padding: 20px 0px 0px 0px;
+        flex-direction: column;
+    }
+    .content{
+        align-items: center;
+    }
+}
+@media (max-width: 320px) {
+    img{
+        width: 200px;
+    }
+    .text{
+        max-width: 200px;
+    }
+}
