@@ -8,3 +8,14 @@ div.user div {
 div.user.selected {
     background-color: greenyellow;
 }
+table, tr, td{
+    border: 1px dashed blue;
+    border-collapse: collapse;
+}
+td{
+    width: 5em;
+    height: 5em;
+}
+table{
+    margin: 1em auto;
+}

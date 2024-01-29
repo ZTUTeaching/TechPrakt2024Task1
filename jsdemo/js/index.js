@@ -1,4 +1,4 @@
-
+"use strict"
 class User {
     #login;
     #password;
@@ -8,7 +8,7 @@ class User {
         this.#password = password;
     }
 
-    getLogin() {
+    /*getLogin() {
         console.log(this);
         return this.#login;
     }
@@ -18,17 +18,18 @@ class User {
     }
     display() {
         console.log(this.#login);
-    }
+    }*/
 }
 
-class Admin extends User {
+/*It is not used */
+/*class Admin extends User {
     #role;
 
     constructor(login, password, role) {
         super(login, password);
         this.#role = role;
     }
-}
+}*/
 const user = new User('admin', '123456');
 
 let panelParams = {
@@ -45,12 +46,15 @@ let y = 2;
 [x, y] = [y, x];
 
 
-
-function func2(a, b, c) {
+/*It isn't used */
+/*function func2(a, b, c) {
     console.log(a);
     console.log(b);
     console.log(c);
-}
+}*/
+
+/* Why are these rows commented?*/
+
 /*let arr2 = [1,2,3,4,5];
 func2(...arr2);*/
 
@@ -61,3 +65,8 @@ console.log(myf.bind(user));
 console.log(user.getLogin());
 const admin = new Admin('admin', '123456', 'all');
 */
+
+function addNumbers(a, b){
+    return a+b;
+}
+console.log(addNumbers(1,2));
