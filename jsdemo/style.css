@@ -1,10 +1,15 @@
 div.user {
     border:1px solid black;
+    border-radius: 10px;
     padding:10px;
+}
+div.user:not(:last-child) {
+    margin-bottom: 1em;
 }
 div.user div {
     cursor: pointer;
+    font-family: sans-serif;
 }
 div.user.selected {
-    background-color: greenyellow;
+    background-color: mediumpurple;
 }
