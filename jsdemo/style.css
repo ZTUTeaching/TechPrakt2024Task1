@@ -1,10 +1,26 @@
 div.user {
-    border:1px solid black;
-    padding:10px;
+    border: 1px solid black;
+    padding: 10px;
+    transition: background-color 0.3s ease; 
 }
+
 div.user div {
     cursor: pointer;
 }
+
 div.user.selected {
-    background-color: greenyellow;
+    background-color: orange;
+}
+
+div.user:active {
+    animation: clickAnimation 0.3s ease;
+}
+
+@keyframes clickAnimation {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: orange;
+    }
 }
