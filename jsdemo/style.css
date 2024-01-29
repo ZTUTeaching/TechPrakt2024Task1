@@ -1,7 +1,7 @@
 div.user {
     border: 1px solid black;
     padding: 10px;
-    transition: background-color 0.3s ease; /* Добавляем плавное изменение цвета при переходе */
+    transition: background-color 0.3s ease; 
 }
 
 div.user div {
@@ -9,20 +9,18 @@ div.user div {
 }
 
 div.user.selected {
-    background-color: red;
+    background-color: orange;
 }
 
-/* Анимация при активации (нажатии) */
 div.user:active {
     animation: clickAnimation 0.3s ease;
 }
 
-/* Ключевые кадры для анимации */
 @keyframes clickAnimation {
     0% {
         background-color: transparent;
     }
     100% {
-        background-color: red;
+        background-color: orange;
     }
 }
