@@ -38,7 +38,6 @@ let panelParams = {
     age : 30
 };
 
-let {title, height} = panelParams;
 let [id, title, count, price] = [1, 'title', 10, 10,5];
 let x = 1;
 let y = 2;
