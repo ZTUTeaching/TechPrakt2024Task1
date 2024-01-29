@@ -1,0 +1,28 @@
+* {
+    background-color: black;
+    padding: 10px;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.news{
+    display: flex;
+    margin: 10px;
+}
+
+.news > div{
+    max-width: 33%;
+    box-shadow: whitesmoke 0 0 10px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.news > div:hover{
+    box-shadow: cadetblue 0 0 12px;
+}
