@@ -27,7 +27,7 @@ img {
     border-radius: 10px;
 }
 
-body > p:first-child {
+body > p {
     text-align: center;
     font-size: 24px;
     font-style: italic;
