@@ -32,7 +32,6 @@ class Admin extends User {
 const user = new User('admin', '123456');
 
 let panelParams = {
-    //width : 300,
     title : 'Title',
     height : 200,
     age : 30
@@ -44,20 +43,8 @@ let x = 1;
 let y = 2;
 [x, y] = [y, x];
 
-
-
 function func2(a, b, c) {
     console.log(a);
     console.log(b);
     console.log(c);
 }
-/*let arr2 = [1,2,3,4,5];
-func2(...arr2);*/
-
-/*
-let myf = user.getLogin;
-console.log(myf.bind(user));
-
-console.log(user.getLogin());
-const admin = new Admin('admin', '123456', 'all');
-*/
