@@ -32,14 +32,13 @@ class Admin extends User {
 const user = new User('admin', '123456');
 
 let panelParams = {
-    //width : 300,
     title : 'Title',
     height : 200,
     age : 30
 };
 
 let {title, height} = panelParams;
-let [id, title, count, price] = [1, 'title', 10, 10,5];
+let [id, newtitle, count, price] = [1, 'title', 10, 10,5];
 let x = 1;
 let y = 2;
 [x, y] = [y, x];
