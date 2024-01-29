@@ -90,9 +90,9 @@ table {
 
     font-weight: 700;
     font-size: 18px;
-    color: black;
+    color: gray;
 
-    background: white;
+    background: wheat;
     border: 2px solid white;
     border-radius: 10px;
 
@@ -102,8 +102,8 @@ table {
 }
 
 .block-news__order:hover {
+    border: 2px solid gray;
     transform: scale(1.05);
-    border: 2px solid black;
 }
 
 .block-news__img {
