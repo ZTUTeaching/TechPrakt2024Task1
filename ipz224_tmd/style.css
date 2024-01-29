@@ -1,0 +1,19 @@
+body {
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.news {
+    margin-bottom: 40px;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
