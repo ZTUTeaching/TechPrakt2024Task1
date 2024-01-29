@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+.ztu-logo {
+    margin-left: 100px;
+    display: block;
+    height: 60px;
+    width: 200px;
+    background-size: cover;
+}
+header {
+    height: 84px;
+    background: #FFFFFF;
+    box-shadow: 0 8px 14px rgba(34, 74, 152, 0.3);
+}
+header .ztu-logo {
+    background-image: url("https://media.ztu.edu.ua/wp-content/uploads/2020/02/Group-6-1-1536x465.png");
+}
+footer .ztu-logo {
+    background-image: url("https://ztu.edu.ua/img/logo/university-white.svg");
+}
+footer {
+    margin-top: 100px;
+    height: 84px;
+    background: #224A98;
+    box-shadow: 0 8px 14px rgba(34, 74, 152, 0.3);
+}
+header, footer {
+    display: flex;
+    align-items: center;
+}
