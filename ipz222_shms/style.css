@@ -24,7 +24,7 @@ header h1.title {
   text-align: center;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(-45deg, #7303c0, #ec38bc, #fdeff9);
+  background: linear-gradient(-45deg, #7303c0, #ec38bc);
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -52,7 +52,7 @@ header img.blast:last-of-type {
 footer {
   width: 100%;
   margin-top: 2em;
-  padding: 1em 2em;
+  padding: 2.5em 5em;
   text-align: center;
   color: #cecece;
 }
@@ -93,6 +93,7 @@ footer .links a:hover {
   border-radius: 15px;
   box-shadow: 0 0 10px #000;
   background-color: rgba(204, 204, 204, 0.75);
+  color: #282828;
 }
 .post img {
   width: 100%;
