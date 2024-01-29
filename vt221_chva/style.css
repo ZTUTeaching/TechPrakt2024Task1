@@ -1,11 +1,11 @@
 body {
     background-color: rgba(67, 173, 255, 0.17);
-    padding: 20px;
+    padding: 22px;
 }
 
 .container {
     background-color: white;
-    padding: 30px;
+    padding: 33px;
 
 }
 
@@ -21,7 +21,7 @@ body {
     align-items: center;
 }
 img{
-    width: 400px;
+    width: 410px;
 }
 .quote {
     position: relative;
@@ -34,6 +34,6 @@ img{
     top: 0;
     bottom: 0;
     width: 3px;
-    background-color: lightslategray;
+    background-color: palevioletred;
 
 }
