@@ -4,4 +4,4 @@
 Список студентів, які виконали завдання:
 * Руденко Олексій Іванович, група ІПЗ-22-2
 
-ipz222_roi@student.ztu.edu.ua
+email: ipz222_roi@student.ztu.edu.ua
