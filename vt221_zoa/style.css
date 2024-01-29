@@ -20,7 +20,6 @@ footer .ztu-logo {
     background-image: url("https://ztu.edu.ua/img/logo/university-white.svg");
 }
 footer {
-    margin-top: 100px;
     height: 84px;
     background: #224A98;
     box-shadow: 0 8px 14px rgba(34, 74, 152, 0.3);
