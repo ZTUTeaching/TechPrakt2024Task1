@@ -10,6 +10,7 @@ body{
     border: 1px solid black;
     margin: 50px;
     border-radius: 30px;
+    width: 1000px;
 }
 
 header{
@@ -25,4 +26,9 @@ header{
 
 table, td{
     padding: 5px;
+}
+
+#picTeller{
+    width: 800px;
+    height: 400px;
 }
