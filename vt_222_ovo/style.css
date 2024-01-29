@@ -4,7 +4,7 @@
     margin-bottom: 30px;
     width: 300px;
     height: 300px;
-    box-shadow: 0 0 10px 10px black;
+    box-shadow: 0 0 5px 10px pink;
 }
 
 img{
@@ -14,5 +14,5 @@ img{
 
 h1{
     text-align: center;
-    color: pink;
+    color: red;
 }
