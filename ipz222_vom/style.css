@@ -8,14 +8,14 @@ body {
 }
 
 article {
-    max-width: 600px;
+    max-width: 900px;
     margin: 20px auto;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #333;
+    color: rgba(117, 117, 64, 0.89);
     font-size: 1.5em;
     margin-bottom: 10px;
 }
@@ -28,6 +28,6 @@ img {
 }
 
 p {
-    color: #555;
+    color: #253357;
     line-height: 1.5;
 }
