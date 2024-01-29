@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(67, 173, 255, 0.17);
+    padding: 22px;
+}
+
+.container {
+    background-color: white;
+    padding: 33px;
+
+}
+
+.news{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.picture,h1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 410px;
+}
+.quote {
+    position: relative;
+    margin: 23px;
+}
+.quote::before{
+    content:'';
+    position: absolute;
+    left: -7px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: palevioletred;
+
+}

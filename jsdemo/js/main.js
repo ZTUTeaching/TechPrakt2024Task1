@@ -22,9 +22,9 @@ let arr = [
         "age": 19,
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
+        "name": "Viktoriia",
+        "age": 20,
+        "title": "some information"
     },{
         "name": "Sergiy",
         "age": 19,
