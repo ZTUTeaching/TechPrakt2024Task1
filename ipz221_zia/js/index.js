@@ -51,13 +51,12 @@ function func2(a, b, c) {
     console.log(b);
     console.log(c);
 }
-/*let arr2 = [1,2,3,4,5];
-func2(...arr2);*/
+let arr2 = [1,2,3,4,5];
+func2(...arr2);
 
-/*
+
 let myf = user.getLogin;
 console.log(myf.bind(user));
 
 console.log(user.getLogin());
 const admin = new Admin('admin', '123456', 'all');
-*/
