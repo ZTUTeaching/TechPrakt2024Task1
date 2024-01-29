@@ -21,24 +21,27 @@ let arr = [
         "name": "Sergiy",
         "age": 19,
         "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },
+    }
 ];
+arr[0].name = "John";
+arr[0].age = 25;
+arr[0].title = "Software Engineer";
+
+arr[1].name = "Alice";
+arr[1].age = 22;
+arr[1].title = "Web Developer";
+
+arr[2].name = "Bob";
+arr[2].age = 30;
+arr[2].title = "Data Scientist";
+
+arr[3].name = "Eva";
+arr[3].age = 27;
+arr[3].title = "Graphic Designer";
+
+arr[4].name = "Mike";
+arr[4].age = 35;
+arr[4].title = "Marketing Specialist";
 
 class UserPanels {
     #userArray;
