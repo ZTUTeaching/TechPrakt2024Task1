@@ -4,9 +4,11 @@
     font-weight: bold; 
     color: #020101;
     margin-bottom: 20px;
+    margin: 0%;
+    padding: 0%;
 }
 .nav__link:hover{
-    color: #d0ba2b; 
+    color: #e2d163; 
 }
 .nav__link{
     margin-left: 15%;
@@ -31,4 +33,6 @@ main{
 }
 body{
     background-color: #f6dddd;
+    margin: 0%;
+    padding: 0%;
 }
