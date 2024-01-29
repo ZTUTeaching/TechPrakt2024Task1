@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
@@ -9,9 +9,7 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
-    text-align: center;
 }
-
 .container img {
     display: block; 
     margin: 0 auto; 
@@ -34,8 +32,16 @@ body {
 
 .news h2 {
     font-size: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.news h1 {
+    font-size: 24px;
     color: #333;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .news p {
