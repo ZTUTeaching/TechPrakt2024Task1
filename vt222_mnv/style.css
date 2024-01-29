@@ -83,6 +83,21 @@ table {
     font-size: 12px;
 }
 
+.block-news__order {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
+
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+
+    background: white;
+    border-radius: 10px;
+
+    text-decoration: none;
+}
+
 .block-news__img {
     order: -1;
     width: 150px;
