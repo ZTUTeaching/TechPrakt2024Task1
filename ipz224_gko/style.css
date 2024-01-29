@@ -19,10 +19,10 @@
 .news > div{
     max-width: 33%;
     box-shadow: whitesmoke 0 0 10px;
-    border-radius: 10px;
+    border-radius: 12px;
     margin: 10px;
 }
 
 .news > div:hover{
-    box-shadow: dodgerblue 0 0 12px;
+    box-shadow: cadetblue 0 0 12px;
 }
