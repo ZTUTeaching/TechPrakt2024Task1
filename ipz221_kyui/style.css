@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-color: #81d1d1;
 }
 h1 {
     color: #333;
@@ -18,7 +19,7 @@ h1 {
     justify-content: center;
     margin: 0 auto;
     max-width: 100%;
-    padding: 20px;
+    padding: 19px;
 }
 .card {
     background-color: #fff;
@@ -28,7 +29,7 @@ h1 {
     max-width: 400px;
     padding: 20px;
     text-align: center;
-    flex-basis: 33%;
+    flex-basis: 32%;
 }
 .card img {
     border-radius: 5px;
