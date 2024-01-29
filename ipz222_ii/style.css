@@ -1,27 +1,30 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(177, 219, 255);
+    background-color: rgb(102, 102, 105);
     padding: 0px;
 }
 
 #blockTeller{
     text-align: center;
-    background-color: aliceblue;
-    border: 1px solid black;
+    background-color: rgb(187, 188, 197);
+    border: 1px solid rgb(54, 54, 54);
     margin: 50px;
     border-radius: 30px;
     width: 1000px;
 }
 
 header{
-    background-color: aliceblue;
+    background-color: rgb(39, 39, 39);
+    color: white;
     margin: 0px;
     font-size: 50px;
     font-style: oblique;
+    border-radius: 5px;
 }
 
 #headerpic{
     height: 50px;
+    border-radius: 30px;
 }
 
 table, td{
@@ -30,5 +33,4 @@ table, td{
 
 #picTeller{
     width: 800px;
-    height: 400px;
 }
