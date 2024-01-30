@@ -1,12 +1,12 @@
 div.user {
-    border:1px solid black;
+    border:1px solid #b02828;
     padding:10px;
     margin: 5px;
     text-align: center;
 }
 div.user div {
-    cursor: pointer;
+    cursor: auto;
 }
 div.user.selected {
-    background-color: greenyellow;
+    background-color: #e06161;
 }
