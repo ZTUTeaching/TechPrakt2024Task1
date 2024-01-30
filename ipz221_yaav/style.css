@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    width: max-content;
+    color: mistyrose;
+    background-color: black;
+    margin: 40px;
+}
+img{
+    height: 560px;
+}
+.item{
+    margin: 10px;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
