@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    width: max-content;
+    color: mistyrose;
+    background-color: black;
+    margin: 90px;
+}
+img{
+    height: 480px;
+}
+.item{
+    margin: 10px;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.container{
+    border: 2px solid red;
+}
