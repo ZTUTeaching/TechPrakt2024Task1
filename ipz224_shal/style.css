@@ -8,3 +8,7 @@ li{
 p{
     font-family: cursive;
 }
+img{
+    width: auto;
+    height: 600px;
+}
