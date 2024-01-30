@@ -1,0 +1,36 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(83, 83, 105);
+    padding: 0px;
+}
+
+#blockTeller{
+    text-align: center;
+    background-color: rgb(152, 156, 196);
+    border: 1px solid rgb(54, 54, 54);
+    margin: 50px;
+    border-radius: 30px;
+    width: 1000px;
+}
+
+header{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    font-style: oblique;
+    border-radius: 5px;
+}
+
+#headerpic{
+    height: 50px;
+    border-radius: 30px;
+}
+
+table, td{
+    padding: 5px;
+}
+
+#picTeller{
+    width: 800px;
+}
