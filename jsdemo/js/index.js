@@ -44,7 +44,7 @@ let x = 1;
 let y = 2;
 [x, y] = [y, x];
 
-
+//some comment
 
 function func2(a, b, c) {
     console.log(a);
