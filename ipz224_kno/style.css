@@ -5,15 +5,16 @@ body {
 }
 
 h1 {
-    font-size: 2em;
-    margin-bottom: 1rem;
+    font-size: 3em;
+    margin-bottom: 5rem;
     text-align: center;
 }
 
 ul {
     list-style: none;
-    padding: 30px;
+    padding: 100px;
     margin: 20px;
+
 }
 
 li {
