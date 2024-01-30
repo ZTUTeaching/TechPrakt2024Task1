@@ -8,3 +8,16 @@
     font-family: "Times New Roman", serif;
     font-weight: bold;
 }
+header {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+footer {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
