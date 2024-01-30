@@ -1,27 +1,26 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-family: 'Arial', sans-serif;
 }
 
-header{
+header {
   text-align: center;
   width: 100%;
   background-color: #A9A9A9;
   color: #fff;
   padding: 20px;
 }
-h1{
+h1 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
 }
 
-body{
+body {
   background-image:url('../images/1679207535_bogatyr-club-p-vtoraya-mirovaya-fon-foni-krasivo-2.jpg') ;
   background-size: cover;
   background-position: center;
