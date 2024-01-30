@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -7,15 +8,65 @@ body{
   font-family: 'Arial', sans-serif;
 }
 
-header {
+header{
   text-align: center;
   width: 100%;
-  background-color: #333;
+  background-color: #A9A9A9;
   color: #fff;
   padding: 20px;
 }
-h1 {
+h1{
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+}
+
+body{
+  background-image:url('../images/1679207535_bogatyr-club-p-vtoraya-mirovaya-fon-foni-krasivo-2.jpg') ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tank {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #DC143C;
+  font-size: 24px;
+  margin: 0;
+}
+
+.img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  line-height: 1.6;
+  color: #696969;
+}
+
+p {
+  margin: 0 0 20px;
 }
