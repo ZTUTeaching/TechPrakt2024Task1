@@ -1,0 +1,14 @@
+h2{
+    color: orange;
+}
+li{
+    list-style-type: square;
+    text-shadow: #08c7f5 1px 0px 2px;
+}
+p{
+    font-family: Inter;
+}
+img{
+    width: auto;
+    height: 600px;
+}
