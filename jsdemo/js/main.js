@@ -2,41 +2,41 @@ let arr = [
     {
         "name": "Petro",
         "age": 19,
-        "title": "description"
+        "title": "Must return $20"
     },
     {
         "name": "Sergiy",
         "age": 19,
-        "title": "description"
+        "title": "Must return $100"
     },
     {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
+        "name": "Adnriy",
+        "age": 20,
+        "title": "Must return $30"
     }, {
-        "name": "Sergiy",
+        "name": "Viktor",
         "age": 19,
-        "title": "description"
+        "title": "Must return $50"
     }, {
-        "name": "Sergiy",
+        "name": "Denis",
         "age": 19,
-        "title": "description"
+        "title": "Must return $200"
     },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
+        "name": "Dmitro",
+        "age": 20,
+        "title": "Must return $20"
     },{
-        "name": "Sergiy",
+        "name": "Ivan",
         "age": 19,
-        "title": "description"
+        "title": "Must return $5"
     },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
+        "name": "Oleksiy",
+        "age": 18,
+        "title": "Must return $50"
     },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
+        "name": "Ignat",
+        "age": 18,
+        "title": "Must return $76"
     },
 ];
 
