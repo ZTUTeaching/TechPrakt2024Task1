@@ -6,10 +6,10 @@ h1{
     width: max-content;
     color: mistyrose;
     background-color: black;
-    margin: 40px;
+    margin: 90px;
 }
 img{
-    height: 560px;
+    height: 480px;
 }
 .item{
     margin: 10px;
@@ -23,4 +23,7 @@ img{
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 50px;
+}
+.container{
+    border: 2px solid red;
 }
