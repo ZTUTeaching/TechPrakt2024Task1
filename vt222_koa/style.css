@@ -5,7 +5,7 @@
 header{
     height: 50px;
     width: 100%;
-    background-color: #830d0d;
+    background-color: #935959;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +26,7 @@ header{
     /*border: 1px solid red;*/
 }
 h2{
-    color: whitesmoke;
+    color: #e01f1f;
     font-size: 20px;
     cursor: pointer;
 }
