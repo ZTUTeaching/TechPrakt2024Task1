@@ -1,0 +1,10 @@
+div.user {
+    border:1px solid rgb(49, 41, 41);
+    padding:10px;
+}
+div.user div {
+    cursor: pointer;
+}
+div.user.selected {
+    background-color: rgb(255, 54, 47);
+}
