@@ -17,19 +17,21 @@ header {
 h1 {
   font-size: 36px;
   font-weight: bold;
-  margin: 0;
+  margin-right: 46px;
 }
 
 body {
   background-image:url('../images/1679207535_bogatyr-club-p-vtoraya-mirovaya-fon-foni-krasivo-2.jpg') ;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
 }
 
 .content {
-  max-width: 800px;
-  margin: 20px auto;
+  max-width: 700px;
+  margin: 30px auto;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
