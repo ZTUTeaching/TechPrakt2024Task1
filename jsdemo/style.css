@@ -1,10 +1,28 @@
-div.user {
-    border:1px solid black;
-    padding:10px;
+body {
+    background-color: #f0f0f0;
 }
-div.user div {
-    cursor: pointer;
+
+h2 {
+    color: #333;
 }
-div.user.selected {
-    background-color: greenyellow;
+
+.panel {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.panel:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #0066cc;
+    font-size: 1.2em;
 }
