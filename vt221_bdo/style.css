@@ -19,5 +19,17 @@ h1
 }
 .new
 {
-    margin: 40px;
+    margin-left: 8%;
+    border: 1px solid black;
+    padding: 5px;
+}
+img
+{
+    display: flex;
+    width: 420px;
+    height: 420px;
+}
+#news_container
+{
+    display: flex;
 }
