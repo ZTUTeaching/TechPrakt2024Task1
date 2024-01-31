@@ -7,7 +7,7 @@ body {
 h1 {
     text-align: center;
     font-size: 36px;
-    color: lightcoral;
+    color: red;
 }
 
 h2{
@@ -16,6 +16,8 @@ h2{
 
 .news {
     margin-top: 20px;
+    border: black 1px solid;
+    padding: 10px;
 }
 
 article {
