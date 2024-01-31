@@ -10,7 +10,8 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0 40px;
-    color: #fff;
+    color: #06f516;
+    font-size: 25px;
 }
 
 .logo__text{
