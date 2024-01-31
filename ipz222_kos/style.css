@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.news {
+    margin-top: 20px;
+}
+
+article {
+    width: 30%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
