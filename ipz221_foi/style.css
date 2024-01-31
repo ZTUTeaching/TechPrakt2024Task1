@@ -1,0 +1,27 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    color: #fff;
+}
+
+.logo__text{
+    font-size: 85px;
+}
+
+.news_block{
+    width: 400px;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.logo__text{
+    text-align: center;
+    align-items: center;
+}
+
+.picture__container{
+    width: 350px;
+    align-items: center;
+}
