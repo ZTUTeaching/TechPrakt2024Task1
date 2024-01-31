@@ -1,29 +1,29 @@
 .picture {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 .text{
     text-align: center;
-    margin-bottom: 2px;
-    font-family: "Times New Roman", serif;
+    margin-bottom: 3px;
+    font-family: "Consolas", serif;
     font-weight: bold;
 }
 header {
-    background-color: gray;
-    color: white;
+    background-color: darkgray;
+    color: oldlace;
     padding: 20px;
     margin-bottom: 10px;
     text-align: center;
 }
 footer {
-    background-color: gray;
-    color: white;
+    background-color: darkgray;
+    color: oldlace;
     padding: 10px;
     text-align: center;
 }
 .description{
     text-align: center;
-    margin-bottom: 25px;
-    font-family: "Times New Roman", serif;
+    margin-bottom: 23px;
+    font-family: "Consolas", serif;
     font-weight: bold;
 }
