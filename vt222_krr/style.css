@@ -18,9 +18,7 @@ nav, footer, header, aside{display: block;}
 html, body{
     height: 100%;
     width: 100%;
-    font-size: 100%;
     line-height: 1;
-    font-size: 14px;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -39,5 +37,43 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 
 .container{
+    margin: 0 auto;
     width: 1000px;
 }
+navbar > div{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Berlin Sans FB Demi";
+    font-size: 40px;
+    height: 80px;
+    background-color: chocolate;
+}
+.header_img > img {
+    width: 100%;
+}
+.header_img{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    overflow: hidden;
+}
+
+.head_btn{
+    width: 50%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: antiquewhite;
+    font-weight: 900;
+}
+.head_btn li{
+    cursor: pointer;
+}
+.head_btn li:hover{
+    text-shadow: 0px 0px 20px antiquewhite;
+    color: #eecd9f;
+}
+
