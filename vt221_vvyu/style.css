@@ -37,3 +37,32 @@ h1 {
     font-size: 14px;
     color: #666;
 }
+.comments {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.comments h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.comment {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.comment h3 {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.comment p {
+    margin: 0;
+    color: #333;
+}
+
