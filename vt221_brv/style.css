@@ -31,3 +31,8 @@ footer {
     text-align: center;
     padding: 0.5rem;
 }
+
+.article img {
+    max-width: 100%;
+    height: auto;
+}
