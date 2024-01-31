@@ -13,7 +13,6 @@
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
 
-nav, footer, header, aside{display: block;}
 
 html, body{
     height: 100%;
@@ -108,6 +107,12 @@ navbar > div{
     padding: 5px;
     width: 30%;
     height: 50%;
+    transition: transform 0.5s ease;
+}
+.news_card img:hover{
+    transform: scale(1.5)
+    translateX(30px)
+    translateY(20px);
 }
 .news_card p{
     font-size: 20px;
