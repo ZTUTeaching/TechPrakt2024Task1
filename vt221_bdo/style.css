@@ -1,0 +1,23 @@
+div p
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman";
+
+}
+h2{
+    color: Red;
+    margin: 2px;
+    padding: 2px;
+    font-family: "Times New Roman";
+}
+h1
+{
+    text-align: center;
+    font-size: 70px;
+    border: 1px solid black;
+}
+.new
+{
+    margin: 40px;
+}
