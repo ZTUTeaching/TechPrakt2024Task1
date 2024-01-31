@@ -1,3 +1,4 @@
+
 body {
     background-color: #FFFFFF;
     line-height: 1;
@@ -27,6 +28,16 @@ span {
 svg {
     overflow-clip-margin: content-box;
     overflow: hidden;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0 auto;
 }
 
 .header-navigate {
@@ -93,4 +104,59 @@ svg {
     clip-path: inset(100%);
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    contain: content;
+    padding-bottom: 1rem;
+    background: #B79999;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    height: 300px;
+    width: 800px;
+    margin: 20px;
+    background: #FFFFFF;
+}
+
+h1 {
+    font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
+    font-weight: 700;
+    font-feature-settings: '';
+    font-size: 1.9rem;
+    margin-top: 30px;
+    line-height: 1.125;
+    color: #141414;
+}
+
+p {
+    margin-top: -5px;
+    font-size: 25px;
+}
+
+a {
+    color: #141414;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    text-align: center;
 }
