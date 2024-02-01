@@ -36,6 +36,21 @@ header {
     align-items: center;
 }
 
+.card {
+    width: 50vw;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #eeeeee;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25)
+}
+
+.card img {
+    width: 100%;
+}
+
 footer {
     width: 100vw;
     height: 60px;
