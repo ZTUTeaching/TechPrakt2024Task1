@@ -17,6 +17,15 @@ body{
     justify-content: center;
     margin: 50px;
 }
+
+.selected{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    border: 5px solid blue;
+}
 .description{
     font-size: 40px;
     color: white;
