@@ -3,26 +3,27 @@ body{
 }
 
 .Header{
+    background: white;
     display: flex;
-    font-size: 64px;
-    color: white;
+    font-size: 72px;
+    color: black;
     justify-content: center;
+    font-family: "Arial Black", serif;
 }
 .post{
-    display: inline-flex;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 50px;
-    border: 5px solid gray;
 }
 .description{
-    font-size: 24px;
+    font-size: 40px;
     color: white;
     width: 250px;
+    margin-left: 10px;
 }
 
 img{
-    width: 500px;
-    height: 400px;
+    width: 50%;
 }
