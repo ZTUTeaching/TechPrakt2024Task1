@@ -1,10 +1,26 @@
-div.user {
-    border:1px solid black;
-    padding:10px;
+body {
+    background-color: #f0f0f0;
 }
-div.user div {
-    cursor: pointer;
+
+
+.panel {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
-div.user.selected {
-    background-color: greenyellow;
+
+.panel:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #0066cc;
+    font-size: 1.2em;
+    font-family: "Arial Black";
 }

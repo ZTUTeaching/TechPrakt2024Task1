@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.news-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+
+}
+
+.news-item img {
+    width: 450px;
+    height: 300px;
+
+}
