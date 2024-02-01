@@ -1,0 +1,39 @@
+body{
+    background: black;
+}
+
+.Header{
+    background: gray;
+    display: flex;
+    font-size: 92px;
+    font-style: italic;
+    color: black;
+    justify-content: center;
+    font-family: "Times New Roman", serif;
+}
+.post{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 45px;
+}
+
+.selected{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 45px;
+    border: 2px solid blue;
+}
+.description{
+    font-size: 64px;
+    color: white;
+    width: 250px;
+    margin-left: 10px;
+}
+
+img{
+    width: 50%;
+}
