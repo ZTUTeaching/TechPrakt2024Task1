@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.news-item {
+    width: 400px;
+    margin: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
