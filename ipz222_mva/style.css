@@ -4,3 +4,21 @@
     background-color: black;
     text-align: center;
 }
+
+.text {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: inline-block;
+}
+.text div {
+    background-color: #e8c5b4;
+    border-radius: 10px;
+    width: 30%;
+    height: 100%;
+}
+
+.text p {
+    font-size: 25px;
+}
