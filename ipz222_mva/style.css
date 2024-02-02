@@ -22,3 +22,9 @@
 .text p {
     font-size: 25px;
 }
+
+img {
+    position:absolute ;
+    right: 40%;
+    height: 30%;
+}
