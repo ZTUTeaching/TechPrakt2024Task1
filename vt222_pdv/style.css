@@ -27,7 +27,6 @@
     background-size: contain;
     border-radius: 50%;
     position: absolute;
-    bottom: -20px;
     left: calc(50% - 25px);
     box-shadow: 3px 3px 3px #f3e995;
 }
@@ -35,7 +34,6 @@
     background-image: url("images/14.png");
     height: 50px;
     width: 50px;
-    background-size: contain;
     border-radius: 50%;
     position: absolute;
     bottom: -20px;
