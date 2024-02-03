@@ -5,37 +5,37 @@ let arr = [
         "title": "description"
     },
     {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Denis",
+        "age": 20,
         "title": "description"
     },
     {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Denis",
+        "age": 20,
         "title": "description"
     }, {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Denis",
+        "age": 20,
         "title": "description"
     }, {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Denis",
+        "age": 20,
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Denis",
+        "age": 20,
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Denis",
+        "age": 20,
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Denis",
+        "age": 20,
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Denis",
+        "age": 20,
         "title": "description"
     },
 ];
