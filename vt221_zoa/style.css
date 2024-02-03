@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+.ztu-logo {
+    margin-left: 100px;
+    display: block;
+    height: 60px;
+    width: 200px;
+    background-size: cover;
+}
+header {
+    height: 84px;
+    background: #FFFFFF;
+    box-shadow: 0 8px 14px rgba(34, 74, 152, 0.3);
+}
+header .ztu-logo {
+    background-image: url("https://media.ztu.edu.ua/wp-content/uploads/2020/02/Group-6-1-1536x465.png");
+}
+footer .ztu-logo {
+    background-image: url("https://ztu.edu.ua/img/logo/university-white.svg");
+}
+footer {
+    height: 84px;
+    background: #224A98;
+    box-shadow: 0 8px 14px rgba(34, 74, 152, 0.3);
+}
+header, footer {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 70%;
+    margin: 30px auto;
+    align-items: center;
+}
+.content .news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content .news-item {
+    padding: 0 20px;
+    border: 1px gray solid;
+    box-shadow: 0 8px 14px rgba(34, 74, 152, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+.content .news-item-img {
+    padding-top: 16px;
+    height: 300px;
+    margin: 0 auto;
+    align-items: center;
+}
