@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #801b1b;
     margin: 0;
     padding: 0;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: rgb(56, 176, 138);
 }
 
 .news {
@@ -18,7 +18,7 @@ h1 {
 }
 
 .news-item {
-    background-color: #fff;
+    background-color: rgb(65, 22, 22);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 20px;
@@ -33,13 +33,13 @@ h1 {
 }
 
 .news-item h2 {
-    color: #333;
+    color: rgb(5, 90, 56);
     font-size: 1.2em;
     margin-top: 10px;
 }
-
+    
 .news-item p {
-    color: #666;
+    color: rgb(17, 179, 119);
     font-size: 1em;
     margin-top: 10px;
 }
