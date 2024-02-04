@@ -16,6 +16,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+    margin-bottom: 20px; /* Додали відстань між #news та footer */
 }
 
 .news-item {
@@ -24,7 +25,7 @@ header {
 }
 
 .news-item img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
