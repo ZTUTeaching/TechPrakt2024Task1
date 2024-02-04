@@ -1,6 +1,7 @@
 body{
     font-family: "Times New Roman", sans-serif;
     font-size: 18px;
+    background-color: #dedede;
 }
 
 .header{
@@ -13,7 +14,14 @@ body{
 
 .header > a{
     text-decoration: none;
-    color: black;
+    text-transform: uppercase;
+    color: #224A98;
+    font-size: 35px;
+}
+
+.header > * {
+    padding: 40px;
+    margin-top: 40px;
 }
 
 .header > a > img {
@@ -30,4 +38,30 @@ body{
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
+    background-color: white;
+}
+
+.myTitle{
+    text-transform: uppercase;
+    font-family: "Bodoni MT Condensed", sans-serif;
+}
+
+.news{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.new{
+    width: 100%;
+    max-width: 520px;
+
+}
+
+.news > *{
+    margin: 0 40px;
+}
+
+.new > img{
+    width: 100%;
+    max-width: 520px;
 }
