@@ -16,13 +16,13 @@ body{
 .header > a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #224A98;
+    color: #224A97;
     font-size: 35px;
 }
 
 .header > * {
-    padding: 40px;
-    margin-top: 40px;
+    padding: 45px;
+    margin-top: 45px;
 }
 
 .header > a > img {
