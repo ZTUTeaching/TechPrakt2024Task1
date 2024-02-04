@@ -1,7 +1,8 @@
 body{
     font-family: "Times New Roman", sans-serif;
     font-size: 18px;
-    background-color: #dedede;
+    background-color: #f5f5f5;
+    margin: 0 auto;
 }
 
 .header{
@@ -43,7 +44,9 @@ body{
 
 .myTitle{
     text-transform: uppercase;
-    font-family: "Bodoni MT Condensed", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #224A98;
+    font-weight: 500;
 }
 
 .news{
@@ -54,7 +57,10 @@ body{
 .new{
     width: 100%;
     max-width: 520px;
-
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .news > *{
