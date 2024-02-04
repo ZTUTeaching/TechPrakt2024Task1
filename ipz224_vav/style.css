@@ -1,0 +1,33 @@
+body{
+    font-family: "Times New Roman", sans-serif;
+    font-size: 18px;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.header > a{
+    text-decoration: none;
+    color: black;
+}
+
+.header > a > img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
