@@ -29,6 +29,15 @@ div {
     width: 55%;
     
 }
+       
+.img1 {
+    height: 300px;  
+    margin: 0 auto; 
+}.img2 {
+    width: 200px;  
+    float: right; 
+   
+}
 .container {
     display: flex;
     align-items: center;
