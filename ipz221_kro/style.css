@@ -1,0 +1,22 @@
+body
+{
+    font-family: Arial, sans-serif;
+}
+h1
+{
+    text-align: left;
+}
+.news
+{
+    background-color: grey;
+    margin: 20px auto;
+    width: 90%;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.news-img img
+{
+    width: 300px;
+    border-radius: 10px;
+}
