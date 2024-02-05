@@ -40,6 +40,12 @@ let arr = [
     },
 ];
 
+function refreshUsers() {
+    localStorage.removeItem('panels-state');
+
+    location.reload();
+}
+
 class UserPanels {
     #userArray;
     #stateArray;
@@ -99,6 +105,26 @@ class UserPanels {
                     tag.classList.toggle('selected');
                 }
             });
+    }
+    refresh() {
+        this.loadState();
+        let containerTag = document.createElement('div');
+        for (let i = 0; i < this.#userArray.length; i++) {
+            let divTag = document.createElement('div');
+            divTag.classList.add('user');
+            divTag.dataset['id'] = i.toString();
+            if (this.#stateArray[i])
+                divTag.classList.add('selected');
+            for (let field in this.#userArray[i]) {
+                let val = this.#userArray[i][field];
+                let divField = document.createElement('div');
+                divField.classList.add(field);
+                divField.innerHTML = val;
+                divTag.appendChild(divField);
+            }
+            containerTag.appendChild(divTag);
+        }
+        document.body.appendChild(containerTag);
     }
 }
 let userPanels = new UserPanels(arr);
