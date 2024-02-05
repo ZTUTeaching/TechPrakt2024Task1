@@ -1,0 +1,14 @@
+.block{
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 3px;
+
+}
+
+.leftBlock, .rightBlock{
+}
+img{
+    width: 200px;
+    height: 100px;
+}
