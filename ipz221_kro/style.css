@@ -4,19 +4,19 @@ body
 }
 h1
 {
-    text-align: center;
+    text-align: left;
 }
 .news
 {
-    background-color: lightgrey;
+    background-color: grey;
     margin: 20px auto;
-    width: 80%;
-    padding: 20px;
-    border-radius: 8px;
+    width: 90%;
+    padding: 50px;
+    border-radius: 15px;
 }
 
 .news-img img
 {
-    width: 200px;
-    border-radius: 4px;
+    width: 300px;
+    border-radius: 10px;
 }
