@@ -1,14 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsBlock{
+    display: flex;
+    flex-direction: column;
+}
+
 .block{
     border: 2px solid grey;
     border-radius: 10px;
     margin: 15px;
     padding: 3px;
 
+    display: flex;
+    flex-direction: row;
 }
 
-.leftBlock, .rightBlock{
+.leftBlock{
+    align-self: center;
+    margin-right: 10px;
 }
+
 img{
     width: 200px;
-    height: 100px;
+    height: auto;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: grey;
 }
