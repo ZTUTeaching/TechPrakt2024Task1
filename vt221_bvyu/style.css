@@ -16,17 +16,28 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    margin-bottom: 20px; /* Додали відстань між #news та footer */
+    margin-bottom: 20px;
 }
 
 .news-item {
     width: 45%;
     margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    display: flex; /* Додано для вирівнювання по центру */
+    flex-direction: column; /* Додано для вирівнювання по центру */
+    align-items: center; /* Додано для вирівнювання по центру */
+}
+
+.news-item:hover {
+    transform: scale(1.05);
 }
 
 .news-item img {
     max-width: 50%;
     height: auto;
+    margin-bottom: 10px; /* Додано відступ від тексту */
 }
 
 footer {
