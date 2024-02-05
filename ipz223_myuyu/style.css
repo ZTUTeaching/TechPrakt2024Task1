@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #1e1d76;
+    color: #82ef42;
     text-align: center;
     padding: 1em;
 }main {
@@ -19,7 +19,7 @@ header {
 .news {
     width: 300px;
     margin: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid #7c3b3b;
     padding: 1em;
 }
 
@@ -29,8 +29,8 @@ img {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #3a858d;
+    color: #691c81;
     text-align: center;
     padding: 1em;
     position: fixed;
