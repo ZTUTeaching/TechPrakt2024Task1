@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: red;
+}
+
+h2{
+    color: darkolivegreen;
+}
+
+.news {
+    margin-top: 20px;
+    border: black 1px solid;
+    padding: 10px;
+}
+
+article {
+    width: 36%;
+}
+
+span{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
