@@ -1,0 +1,13 @@
+.card-img-top {
+    width: 100%;
+    height: 225px;
+    object-fit: fill;
+}
+
+.card-body {
+    height: 155px;
+    overflow: hidden;
+}
+
+
+
