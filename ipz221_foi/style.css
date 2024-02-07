@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(148 114 200);
+}
+
+.header{
+    background-color: rgb(187, 155, 222);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    color: #06f516;
+    font-size: 25px;
+}
+
+.logo__text{
+    font-family: "Playfair Display", serif;
+    font-size: 85px;
+}
+
+.news_block{
+    width: 400px;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.logo__text{
+    text-align: center;
+    align-items: center;
+}
+
+.picture__container{
+    width: 350px;
+    align-items: center;
+}
