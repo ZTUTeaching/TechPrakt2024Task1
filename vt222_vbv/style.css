@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}  h1 {
+    margin: 0;
+    font-size: 24px;
+}
+main {
+    padding: 20px;
+}
+.news-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.news-item h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.news-item img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+.news-item p {
+    margin-bottom: 0;
+}
