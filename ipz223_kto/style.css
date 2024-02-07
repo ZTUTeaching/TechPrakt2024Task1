@@ -12,6 +12,8 @@
     max-width: 100%;
     display: block;
     margin-top: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px gray;
 }
 .title-block {
     text-align: center;
