@@ -13,9 +13,11 @@
     display: block;
     margin-top: 10px;
 }
-
 .title-block {
     text-align: center;
     width: 100%;
     background-color: darkgrey;
+}
+h1{
+    text-align: center;
 }
