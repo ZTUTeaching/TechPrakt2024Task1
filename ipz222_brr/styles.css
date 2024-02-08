@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-color: rgba(255, 239, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    z-index: 2;
+    z-index: 1;
 }
 
 header {
@@ -23,8 +23,7 @@ header {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0);  
     border-radius: 10px;
-    z-index: 999;  
-
+    z-index: 2;
 }
 .silver{
     width: 600px;
@@ -35,7 +34,7 @@ h2{
     box-shadow: 5px 5px 50px rgba(248, 248, 248, 0.959);
     width: 150px;
     background-color: #caac00;
-    border-radius: 10px;
+    border: 2px solid black;
     padding: 5px;
 }
 div {
@@ -51,6 +50,7 @@ div {
 .img1 {
     height: 300px;  
     margin: 0 auto; 
+    border: 2px solid white;
 }.img2 {
     width: 200px;  
     float: right; 
