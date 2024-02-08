@@ -5,8 +5,8 @@ let arr = [
         "title": "description"
     },
     {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Roman",
+        "age": 20,
         "title": "description"
     },
     {
@@ -30,8 +30,8 @@ let arr = [
         "age": 19,
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Oleg",
+        "age": 18,
         "title": "description"
     },{
         "name": "Sergiy",
