@@ -19,6 +19,10 @@ section {
     background-color: white;
 }
 
+h1 {
+    color: red;
+}
+
 div {
     width: 50%;
     display: inline-block;
