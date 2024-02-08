@@ -1,40 +1,40 @@
 let arr = [
     {
-        "name": "Petro",
+        "name": "Ivan",
         "age": 19,
         "title": "description"
     },
     {
-        "name": "Sergiy",
+        "name": "Mykola",
         "age": 19,
         "title": "description"
     },
     {
-        "name": "Sergiy",
+        "name": "Mykola",
         "age": 19,
         "title": "description"
     }, {
-        "name": "Sergiy",
+        "name": "Mykola",
         "age": 19,
         "title": "description"
     }, {
-        "name": "Sergiy",
+        "name": "Mykola",
         "age": 19,
         "title": "description"
     },{
-        "name": "Sergiy",
+        "name": "Mykola",
         "age": 19,
         "title": "description"
     },{
-        "name": "Sergiy",
+        "name": "Mykola",
         "age": 19,
         "title": "description"
     },{
-        "name": "Sergiy",
+        "name": "Mykola",
         "age": 19,
         "title": "description"
     },{
-        "name": "Sergiy",
+        "name": "Mykola",
         "age": 19,
         "title": "description"
     },
