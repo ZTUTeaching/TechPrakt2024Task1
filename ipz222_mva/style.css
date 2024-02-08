@@ -6,16 +6,12 @@
 }
 
 .text {
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 3;
-    grid-row-end: 4;
     display: inline-block;
 }
 .text div {
-    background-color: #e8c5b4;
-    border-radius: 10px;
-    width: 30%;
+    background-color: #f3c808;
+    border-radius: 15px;
+    width: 35%;
     height: 100%;
 }
 
@@ -25,6 +21,6 @@
 
 img {
     position:absolute ;
-    right: 40%;
+    right: 35%;
     height: 30%;
 }
