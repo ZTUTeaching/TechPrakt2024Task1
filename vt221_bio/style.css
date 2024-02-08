@@ -1,17 +1,20 @@
-body{
+body {
     padding: 0;
     background: linear-gradient(to bottom right, #8c1c1e, #171010);
+    overflow-x: hidden; /* Забороняє прокручування по горизонталі, якщо контент виходить за межі */
+    overflow-y: auto; /* Автоматичне включення вертикального прокручування, якщо контент виходить за межі */
 }
+
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin-bottom: 30px;
+    overflow: hidden; /* Якщо дочірні елементи виходять за межі, то вони будуть обрізані */
 }
 
 .flex > div {
-
     width: 500px;
     background-color: white;
     border-radius: 25px;
@@ -20,14 +23,17 @@ body{
     margin-left: 10px;
     padding: 45px;
     position: relative;
+    overflow: hidden; /* Обрізаємо вміст, який може виходити за межі блоку div */
 }
-.flex > div >img{
+
+.flex > div > img {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 25px;
 }
-.flex >div >a{
+
+.flex > div > a {
     text-decoration: none;
     background: linear-gradient(to bottom right, #8c1c1e, #171010);
     border-radius: 25px;
@@ -35,8 +41,58 @@ body{
     padding: 5px;
     color: white;
 }
-p{
+
+p {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+
+}
+
+.sticky-header h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+
+}
+.sticky-header h1 >a {
+    text-decoration: none;
+    color: white;
+}
+.sticky-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.sticky-header nav ul li {
+    display: inline;
+}
+
+.sticky-header nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sticky-header nav ul li a:hover {
+    background-color: #555;
+}
+.banner{
+    width: 100%;
+    display: block;
+    height: 120px;
 }
