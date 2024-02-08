@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    background: linear-gradient(to bottom right, #8c1c1e, #171010);
+    overflow-x: hidden; /* Забороняє прокручування по горизонталі, якщо контент виходить за межі */
+    overflow-y: auto; /* Автоматичне включення вертикального прокручування, якщо контент виходить за межі */
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden; /* Якщо дочірні елементи виходять за межі, то вони будуть обрізані */
+}
+
+.flex > div {
+    width: 500px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 45px;
+    position: relative;
+    overflow: hidden; /* Обрізаємо вміст, який може виходити за межі блоку div */
+}
+
+.flex > div > img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 25px;
+}
+
+.flex > div > a {
+    text-decoration: none;
+    background: linear-gradient(to bottom right, #8c1c1e, #171010);
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    color: white;
+}
+
+p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
