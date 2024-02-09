@@ -1,0 +1,15 @@
+.news {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: floralwhite;
+}
+.news h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    line-height: 3;
+}
+.news p {
+    font-size: 1em;
+    line-height: 1;
+}
