@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.welcome-section, .news-section, .about-section, .services-section, .contact-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h1, .news-section h2, .about-section h2, .services-section h2, .contact-section h2 {
+    margin-bottom: 20px;
+}
+
+.welcome-section p, .news-section p, .about-section p, .services-section p, .contact-section p {
+    line-height: 1.6;
+}
