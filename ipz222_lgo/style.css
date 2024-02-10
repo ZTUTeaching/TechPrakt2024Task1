@@ -92,20 +92,25 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .buttons button {
     background-color: transparent;
-    border: none;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
     color: #fff;
     margin: 0 10px;
     font-size: 16px;
     cursor: pointer;
+    padding: 8px 16px;
 }
 
 .buttons button:hover {
-    text-decoration: underline;
+    background-color: #ffffff;
+    color: #000000;
 }
+
 
 footer {
     background-color: LightSlateGray;
