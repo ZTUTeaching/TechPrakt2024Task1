@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: "Raleway", "Arial", "Helvetica", "sans-serif";
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.lines {
+  position: relative;
+  transition: all .25s ease;
+}
+
+.lines::after{
+  background: #17baaa;
+    bottom: -8px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0); 
+    transition: all .25s ease;
+    width: 100%;
+} 
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.lines:hover::after{
+  transform: scaleX(1); 
+}
+.lines:hover{
+  color: #17baaa;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("images\homepage.0151b74.jpg");
+  padding:  20px;
+  height: calc(100vh - 40px);
+  display: flex;
+  flex-direction: column;
+  
+  
+ 
+}
+
+.header::after{
+    background: #0c3632;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .85;
+    position: absolute;
+    top: 0;
+    transition: all .25s ease;
+    width: 100%;
+}
+
+
+
+.bag li {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.bag{
+  display: flex;
+  align-items: center;
+}
+
+.bag li:last-of-type a {
+  display: flex;
+  font-size: 14px;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 3px;
+  transition: all 0.25s ease;
+  align-items: center;
+  background-color: #eb0a0a;
+}
+.bag li:last-of-type svg {
+  width: 1em;
+}
+
+.bag li:last-of-type a:hover {
+  background-color: #c9233a;
+}
