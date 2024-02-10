@@ -8,3 +8,6 @@ div.user div {
 div.user.selected {
     background-color: greenyellow;
 }
+body{
+    background-color: powderblue;
+}
