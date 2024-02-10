@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: "Raleway", "Arial", "Helvetica", "sans-serif";
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.lines {
+  position: relative;
+  transition: all .25s ease;
+}
+
+.lines::after{
+  background: #17baaa;
+    bottom: -8px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0); 
+    transition: all .25s ease;
+    width: 100%;
+} 
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.lines:hover::after{
+  transform: scaleX(1); 
+}
+.lines:hover{
+  color: #17baaa;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://opencages.com.ua/_nuxt/img/homepage.0151b74.jpg.webp");
+  padding:  20px;
+  height: calc(100vh - 40px);
+  display: flex;
+  flex-direction: column;
+  
+  
+ 
+}
+
+.header::after{
+    background: #0c3632;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .85;
+    position: absolute;
+    top: 0;
+    transition: all .25s ease;
+    width: 100%;
+}
+
+
+
+.bag li {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+
+
+.bag{
+  display: flex;
+  align-items: center;
+}
+
+.bag li:last-of-type a {
+  display: flex;
+  font-size: 14px;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 3px;
+  transition: all 0.25s ease;
+  align-items: center;
+  background-color: #eb0a0a;
+}
+.bag li:last-of-type svg {
+  width: 1em;
+}
+
+.bag li:last-of-type a:hover {
+  background-color: #c9233a;
+}
+.picture{
+  height: 40px;
+  padding: 0 20px;
+  }
+  .logo-link{
+    display: flex;
+    height: 50px;
+    align-items: center;
+  }
+  .love{
+    margin-right: 3px;
+  }
+
+
+
+  .header-1-2{
+    margin: auto 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .heder-content{
+   color: #173dba; 
+  } 
+
+  .header-2{
+   color: white;
+   font-size: 56px;
+  }
+   
+  .buttom{
+    display: block;
+   background-color: #17baaa;
+   color: #fff;
+   align-items: center;
+    border: 0;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-size: 14px;
+    font-size: .875rem;
+    font-weight: 700;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 40px;
+    outline: none;
+    padding: 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .25s ease;
+
+  }
+  .buttom:hover{
+    background-color: #0c3632;
+  }
+  
+  
