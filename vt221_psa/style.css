@@ -4,6 +4,7 @@ body {
 
 }
 
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -57,6 +58,9 @@ a {
   height: calc(100vh - 40px);
   display: flex;
   flex-direction: column;
+  
+  
+ 
 }
 
 .header::after{
@@ -80,6 +84,8 @@ a {
   padding: 0 10px;
 }
 
+
+
 .bag{
   display: flex;
   align-items: center;
@@ -102,3 +108,61 @@ a {
 .bag li:last-of-type a:hover {
   background-color: #c9233a;
 }
+.picture{
+  height: 40px;
+  padding: 0 20px;
+  }
+  .logo-link{
+    display: flex;
+    height: 50px;
+    align-items: center;
+  }
+  .love{
+    margin-right: 3px;
+  }
+
+
+
+  .header-1-2{
+    margin: auto 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .heder-content{
+   color: #17baaa; 
+  
+  
+  } 
+
+  .header-2{
+   color: white;
+   font-size: 56px;
+  }
+   
+  .buttom{
+    display: block;
+   background-color: #17baaa;
+   color: #fff;
+   align-items: center;
+    border: 0;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-size: 14px;
+    font-size: .875rem;
+    font-weight: 700;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 40px;
+    outline: none;
+    padding: 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .25s ease;
+
+  }
+  .buttom:hover{
+    background-color: #0c3632;
+  }
+  
+  
