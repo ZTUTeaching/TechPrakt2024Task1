@@ -1,0 +1,26 @@
+.title {
+    border: solid black;
+    color:red;
+    background-color: black;
+    text-align: center;
+}
+
+.text {
+    display: inline-block;
+}
+.text div {
+    background-color: #f3c808;
+    border-radius: 15px;
+    width: 35%;
+    height: 100%;
+}
+
+.text p {
+    font-size: 25px;
+}
+
+img {
+    position:absolute ;
+    right: 35%;
+    height: 30%;
+}
