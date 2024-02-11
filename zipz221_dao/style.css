@@ -1,0 +1,30 @@
+body {
+    min-width: 500px;
+    margin: 32px;
+    background-color: #F6F5FA;
+    color: #020202;
+}
+
+.news_item {
+    margin-top: 16px;
+    border-radius: 16px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #DCDCDC;
+    background-color: #FFFFFF1A;
+    padding: 16px 32px;
+}
+
+.title {
+    display: flex;
+}
+
+.title>img {
+    border-radius: 8px;
+    width: 36%;
+    margin: 0 24px auto  auto;
+}
+
+.title>h1 {
+    margin: 0;
+}
