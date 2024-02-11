@@ -6,13 +6,13 @@ body {
 }
 
 .news_item {
-    margin-top: 16px;
-    border-radius: 16px;
+    margin-top: 14px;
+    border-radius: 14px;
     border-width: 2px;
     border-style: solid;
     border-color: #DCDCDC;
     background-color: #FFFFFF1A;
-    padding: 16px 32px;
+    padding: 14px 34px;
 }
 
 .title {
@@ -20,7 +20,7 @@ body {
 }
 
 .title>img {
-    border-radius: 8px;
+    border-radius: 10px;
     width: 36%;
     margin: 0 24px auto  auto;
 }
