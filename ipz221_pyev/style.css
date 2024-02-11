@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.article {
+    margin-bottom: 40px;
+}
+.article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.article h2 {
+    color: #333;
+}
+.article p {
+    color: #666;
+}
