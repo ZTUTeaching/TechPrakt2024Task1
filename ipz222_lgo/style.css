@@ -16,7 +16,7 @@ body {
 .list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Центруємо елементи по горизонталі */
+    justify-content: center;
 }
 
 .item {
@@ -31,14 +31,14 @@ body {
 }
 
 .image img {
-    width: 100%;
+    width: 99%;
     height: auto;
     display: block;
 }
 
 .text {
     padding: 10px;
-    background-color: #fff;
+    background-color: #eeee;
     text-align: center;
 }
 
@@ -115,7 +115,7 @@ header {
 footer {
     background-color: LightSlateGray;
     color: #fff;
-    padding: 5px;
+    padding: 6px;
     width: 100%;
     height: 40px;
     position: fixed;
