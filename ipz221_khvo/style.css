@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f0f0f0;
+}
+
+main {
+    padding: 1em;
+}
+
+.news-item {
+    margin-bottom: 5em;
+}
+
+.news-image {
+    max-width: 106%;
+    height: auto;
+}
