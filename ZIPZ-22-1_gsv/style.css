@@ -20,7 +20,8 @@ section {
 }
 
 h1 {
-    color: red;
+    color: rgb(0, 0, 0);
+    border: 1px solid green;
 }
 
 div {
