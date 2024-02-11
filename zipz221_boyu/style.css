@@ -25,6 +25,11 @@ body>.card:last-of-type {
 }
 
 .card img {
+    border-radius: 8px;
     width: 100%;
     margin: auto;
+}
+
+.card>p {
+    color: rgb(140,148,159);
 }
