@@ -6,23 +6,23 @@ let arr = [
     },
     {
         "name": "Sergiy",
-        "age": 19,
+        "age": 22,
         "title": "description"
     },
     {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Roman",
+        "age": 18,
         "title": "description"
     }, {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Viktor",
+        "age": 21,
         "title": "description"
     }, {
-        "name": "Sergiy",
+        "name": "Stepan",
         "age": 19,
         "title": "description"
     },{
-        "name": "Sergiy",
+        "name": "Fedir",
         "age": 19,
         "title": "description"
     },{
