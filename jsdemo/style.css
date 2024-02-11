@@ -1,6 +1,10 @@
 div.user {
     border:1px solid black;
+    border-top-width: 0;
     padding:10px;
+}
+div.user:first-of-type {
+    border-top-width: 1px;
 }
 div.user div {
     cursor: pointer;
