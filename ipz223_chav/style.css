@@ -10,10 +10,10 @@ body {
 }
 
 header, footer {
-    height: 60px;
+    height: 50px;
     display: flex;
     align-items: center;
-    background-color: lightblue;
+    background-color: #ffec92;
 }
 
 header > p, footer > p {
@@ -32,7 +32,7 @@ header > p, footer > p {
 
 .left-aside, .right-aside {
     width: 15%;
-    background-color: lightskyblue;
+    background-color: #6c6cff;
 }
 
 main {
@@ -83,8 +83,8 @@ img {
 
 footer {
     margin-top: -100px;
-    height: 100px;
-    border: 2px solid lightblue;
+    height: 80  px;
+    border: 2px solid #0000cd;
     display: flex;
     align-items: center;
 }
