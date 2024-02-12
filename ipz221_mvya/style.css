@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background-color: black;
+    color: red;
+    padding: 20px 10px;
+    margin: 0 0;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.news {
+    margin-bottom: 30px;
+}
+.news img {
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+}
+.news h2 {
+    color: #333;
+}
+.news p {
+    color: #666;
+}
