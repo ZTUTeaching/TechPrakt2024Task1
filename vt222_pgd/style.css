@@ -1,9 +1,14 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
+    transition: 1s;
 }
 
 img {
-    margin-bottom: 30px;
+    margin: 5px;
 }
 
+*:hover {
+    transform: scale(1.1) translateX(90px);
+    transition: 1s;
+}
