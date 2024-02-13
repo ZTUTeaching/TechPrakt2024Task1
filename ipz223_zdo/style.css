@@ -4,14 +4,13 @@ body{
 }
 
 .news-container{
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
 }
 
 .news-item{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
 }
 
 .news-item img{
