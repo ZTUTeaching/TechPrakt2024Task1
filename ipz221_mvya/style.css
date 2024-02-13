@@ -15,17 +15,17 @@ h1 {
     margin: 20px auto;
     padding: 0 20px;
 }
-.news {
+.photo {
     margin-bottom: 30px;
 }
-.news img {
+.photo img {
     max-width: 500px;
     display: block;
     margin: 10px auto;
 }
-.news h2 {
+.photo h2 {
     color: #333;
 }
-.news p {
+.photo p {
     color: #666;
 }
