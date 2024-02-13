@@ -8,7 +8,16 @@ img {
     margin: 5px;
 }
 
+body {
+    background-color: blue;
+}
+
+div {
+    background-color: red;
+    color:green;
+}
+
 *:hover {
-    transform: scale(1.1) translateX(90px);
+    transform: scale(1.05) translateX(90px);
     transition: 1s;
 }
