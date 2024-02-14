@@ -10,31 +10,31 @@ let arr = [
         "title": "description"
     },
     {
-        "name": "Sergiy",
+        "name": "Volodymyr",
         "age": 19,
         "title": "description"
     }, {
-        "name": "Sergiy",
+        "name": "Oleg",
         "age": 19,
         "title": "description"
     }, {
-        "name": "Sergiy",
+        "name": "Ann",
         "age": 19,
         "title": "description"
     },{
-        "name": "Sergiy",
+        "name": "Olha",
         "age": 19,
         "title": "description"
     },{
-        "name": "Sergiy",
+        "name": "Dmytro",
         "age": 19,
         "title": "description"
     },{
-        "name": "Sergiy",
+        "name": "Anton",
         "age": 19,
         "title": "description"
     },{
-        "name": "Sergiy",
+        "name": "Nicholas",
         "age": 19,
         "title": "description"
     },
