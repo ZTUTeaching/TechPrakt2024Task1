@@ -32,7 +32,7 @@ header > p, footer > p {
 
 .left-aside, .right-aside {
     width: 15%;
-    background-color: #ffffff;
+    background-color: #ffec92;
 }
 
 main {
@@ -44,7 +44,7 @@ main {
 
 .news {
     height: 200px;
-    border: 2px dotted black;
+    border: 2px dotted #000080;
     width: 90%;
     padding: 8px;
     margin: 8px;
@@ -84,7 +84,7 @@ img {
 footer {
     margin-top: -100px;
     height: 99px;
-    border: 2px solid lightblue;
+    border: 2px solid #ffffff;
     display: flex;
     align-items: center;
 }
