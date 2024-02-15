@@ -2,7 +2,7 @@ body {
     font-family: "Times New Roman", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: yellow;
+    background-color: darkgrey;
 }
 h1 {
     background-color: black;
@@ -25,7 +25,7 @@ h1 {
     margin: 10px auto;
 }
 .photo h2 {
-    color: black;
+    color: green;
 }
 .photo p {
     color: black;
