@@ -1,12 +1,12 @@
 let arr = [
     {
         "name": "Petro",
-        "age": 19,
+        "age": 18,
         "title": "description"
     },
     {
         "name": "Sergiy",
-        "age": 19,
+        "age": 18,
         "title": "description"
     },
     {
