@@ -13,7 +13,7 @@ header, footer {
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: lightblue;
+    background-color: #ffffff;
 }
 
 header > p, footer > p {
@@ -32,7 +32,7 @@ header > p, footer > p {
 
 .left-aside, .right-aside {
     width: 15%;
-    background-color: lightskyblue;
+    background-color: #ffffff;
 }
 
 main {
@@ -69,7 +69,7 @@ img {
 }
 
 .header{
-    font-size: 19px;
+    font-size: 20px;
     font-weight: bold;
     height: 20%;
     text-align: center;
@@ -83,7 +83,7 @@ img {
 
 footer {
     margin-top: -100px;
-    height: 100px;
+    height: 99px;
     border: 2px solid lightblue;
     display: flex;
     align-items: center;
