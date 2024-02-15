@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 15px;
     font-family: sans-serif, Arial;
 }
 
@@ -10,10 +10,10 @@ body {
 }
 
 header, footer {
-    height: 50px;
+    height: 40px;
     display: flex;
     align-items: center;
-    background-color: #ffec92;
+    background-color: #00ffff;
 }
 
 header > p, footer > p {
@@ -32,7 +32,7 @@ header > p, footer > p {
 
 .left-aside, .right-aside {
     width: 15%;
-    background-color: #6c6cff;
+    background-color: #00ffff;
 }
 
 main {
@@ -44,10 +44,10 @@ main {
 
 .news {
     height: 200px;
-    border: 2px dotted black;
+    border: 2px dotted #87cefa;
     width: 90%;
-    padding: 8px;
-    margin: 8px;
+    padding: 9px;
+    margin: 9px;
     display: flex;
 }
 
@@ -83,7 +83,7 @@ img {
 
 footer {
     margin-top: -100px;
-    height: 80  px;
+    height: 100px;
     border: 2px solid #0000cd;
     display: flex;
     align-items: center;
