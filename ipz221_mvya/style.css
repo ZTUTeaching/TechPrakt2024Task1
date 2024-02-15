@@ -1,0 +1,32 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+}
+h1 {
+    background-color: black;
+    color: red;
+    padding: 20px 10px;
+    margin: 0 0;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.photo {
+    margin-bottom: 30px;
+}
+.photo img {
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+}
+.photo h2 {
+    color: green;
+}
+.photo p {
+    color: black;
+}
