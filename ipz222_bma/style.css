@@ -13,4 +13,17 @@
     border-radius: 5px;
     text-align: center;
 }
+.news-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
 
+.news-item h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.news-item p {
+    font-size: 16px;
+}
