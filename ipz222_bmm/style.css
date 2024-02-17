@@ -4,6 +4,8 @@
     justify-content: center;
 }
 
+/*Вношу довільні зміни у файл style.css згідно завдання 3*/
+
 .news-item {
     width: 300px;
     margin: 20px;
@@ -17,6 +19,8 @@
     width: 100%;
     border-radius: 5px;
 }
+
+/*Вношу довільні зміни у файл style.css згідно завдання 3*/
 
 .news-item h2 {
     margin-top: 10px;
