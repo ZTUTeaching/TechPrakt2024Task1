@@ -12,3 +12,15 @@ div.panel .title {
     text-align: center;
     font-size: 35px;
 }
+
+div.panel img {
+    max-width: 15%;
+    margin-top: 10px;
+}
+
+div.panel .description {
+    max-width: 15%;
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 25px;
+}
