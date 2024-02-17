@@ -8,3 +8,20 @@ div.user div {
 div.user.selected {
     background-color: greenyellow;
 }
+.panel {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Стилі для заголовків */
+.header {
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+/* Стилі для заголовків */
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
