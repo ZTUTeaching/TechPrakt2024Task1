@@ -66,3 +66,20 @@ header{
     background-color: rgba(218, 165, 32, 0.85);
     font-size: 16px;
 }
+
+footer {
+    border: 3px solid black;
+    background: linear-gradient(rgba(255, 89, 0, 0.5), rgba(255, 255, 255, 0.15));
+    border-radius: 10px 10px 0px 0px;
+}
+.cop{
+    font-size: 10px;
+    color: white;
+}
+#foot{
+    color: whitesmoke;
+    font-size: 17px;
+    width: 98%;
+    padding: 10px;
+
+}
