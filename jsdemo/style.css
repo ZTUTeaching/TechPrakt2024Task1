@@ -6,5 +6,5 @@ div.user div {
     cursor: pointer;
 }
 div.user.selected {
-    background-color: greenyellow;
+    background-color: red;
 }
