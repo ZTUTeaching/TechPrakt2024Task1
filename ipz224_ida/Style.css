@@ -47,3 +47,7 @@ section h2 {
 section p {
     margin-bottom: 0;
 }
+
+img {
+    width: 30%;
+}
