@@ -4,6 +4,13 @@ header {
     color: #fff;
     padding: 20px 0;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -15,11 +22,5 @@ article {
     padding-bottom: 20px;
 }
 h2 {
-    color: #333;
-}
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px auto;
+    color: #282727;
 }
