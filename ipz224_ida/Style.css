@@ -68,3 +68,13 @@ img {
     margin: 20px auto;
     max-width: 100%;
 }
+
+footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+
