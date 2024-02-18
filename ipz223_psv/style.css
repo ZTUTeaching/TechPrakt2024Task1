@@ -39,3 +39,7 @@ h2 {
     box-shadow: 0 0 10px rgba(36, 41, 36, 0.5);
     margin-bottom: 10px;
 }
+
+.description {
+    color: #2a2e27;
+}
