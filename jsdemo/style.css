@@ -4,6 +4,8 @@ div.user {
 }
 div.user div {
     cursor: pointer;
+    color: tomato;
+    background-color: green;
 }
 div.user.selected {
     background-color: greenyellow;
