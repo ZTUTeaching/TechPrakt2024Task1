@@ -3,3 +3,4 @@
 
 Список студентів, які виконали завдання:
 * Shchukin Denis Oleksandrovich ІПЗ-22-1
+* ipz221_shchdo@student.ztu.edu.ua
