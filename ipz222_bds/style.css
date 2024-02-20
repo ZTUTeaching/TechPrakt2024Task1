@@ -11,14 +11,14 @@
 }
 
 .news img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
 }
 
 body {
-    background-color: cadetblue;
+    background-color: rgb(76, 196, 200);
 }
 
 img {
-    border: 2px black solid;
+    border: 4px black solid;
 }
