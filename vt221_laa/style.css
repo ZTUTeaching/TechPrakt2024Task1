@@ -1,0 +1,28 @@
+body {
+    font-family: "Roboto Thin", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #475652;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.news-item {
+    margin: 20px;
+    border: 1px solid #eef0f1;
+    padding: 11px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
