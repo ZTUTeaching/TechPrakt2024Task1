@@ -1,0 +1,27 @@
+
+body {
+    font-family: "Times New Roman", sans-serif;
+    background-color: #f0f0f0;
+    color: #ff0000;
+    margin: 20px;
+}
+
+
+
+.panel:hover {
+    background-color: #ffffff;
+}
+
+.panel .header {
+    cursor: pointer;
+}
+
+
+.content img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 9px;
+}
+
+
+
