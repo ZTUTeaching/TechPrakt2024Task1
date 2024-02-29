@@ -1,0 +1,66 @@
+div p
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+
+}
+h1
+{
+    color: saddlebrown;
+}
+body{
+    background-color: burlywood;
+}
+h2{
+    color: saddlebrown;
+    margin: 2px;
+    padding: 2px;
+    font-family: "Arial Black";
+}
+h1
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.logo
+{
+    width: 100px;
+    height: 100px;
+}
+#made__by {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 5px;
+    color: saddlebrown;
+    font-size: 25px;
+}
+h1
+{
+    text-align: center;
+    font-size: 70px;
+    border: 1px solid saddlebrown;
+}
+.new
+{
+    margin-left: 8%;
+    border: 1px solid saddlebrown;
+    padding: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img
+{
+    display: flex;
+    width: 420px;
+    height: 420px;
+}
+#news_container
+{
+    display: flex;
+}
