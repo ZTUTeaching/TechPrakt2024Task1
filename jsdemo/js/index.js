@@ -34,7 +34,7 @@ const user = new User('admin', '123456');
 let panelParams = {
     //width : 300,
     title : 'Title',
-    height : 200,
+    height : 180,
     age : 30
 };
 
