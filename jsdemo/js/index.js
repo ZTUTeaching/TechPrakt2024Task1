@@ -61,3 +61,4 @@ console.log(myf.bind(user));
 console.log(user.getLogin());
 const admin = new Admin('admin', '123456', 'all');
 */
+/*Коментар Ярош Володимр Володимирович ЗПІЗ-22-1*/
